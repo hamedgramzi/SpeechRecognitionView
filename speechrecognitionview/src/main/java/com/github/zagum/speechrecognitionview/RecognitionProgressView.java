@@ -343,6 +343,7 @@ public class RecognitionProgressView extends View implements RecognitionListener
         }
         if (rmsdB > 4) {
             isSpeaking = true;
+
         }
         if (!(animator instanceof RmsAnimator) && isSpeaking) {
             startRmsInterpolation();
